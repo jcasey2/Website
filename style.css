@@ -42,7 +42,6 @@ a:link, a:visited {
     display: inline-block;
 }
 
-
 a:hover, a:active {
     background-color: white;
     color: red;
