@@ -1,3 +1,21 @@
+body{
+  font-family: "Lucida Console", Monaco, monospace
+}
+
+.left{
+  width: 70%;
+  float: left;
+  padding-left: 5%;
+  border-right: solid black;
+  border-width: 2px;
+  border-color: red;
+}
+
+.right{
+  width: 20%;
+  float:right;
+}
+
 .index{
   width: 50%;
   padding-right: 25%;
