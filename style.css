@@ -3,17 +3,18 @@ body{
 }
 
 .left{
-  width: 70%;
+  width: 65%;
   float: left;
   padding-left: 5%;
-  border-right: solid black;
+  padding-right: 5%;
+  border-right: solid red;
   border-width: 2px;
-  border-color: red;
 }
 
 .right{
   width: 20%;
   float:right;
+  padding-left: 4%;
 }
 
 .index{
@@ -50,7 +51,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
 a:link, a:visited {
     background-color: #f44336;
     color: white;
@@ -64,3 +65,4 @@ a:hover, a:active {
     background-color: white;
     color: red;
 }
+*/
