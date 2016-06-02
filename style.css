@@ -2,6 +2,21 @@ body{
   font-family: "Lucida Console", Monaco, monospace
 }
 
+.email{
+  width: 40%;
+  padding-left: 10%;
+  float: left;
+}
+
+#googleMap{
+  width: 500px;
+  height: 380px;
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
 .left{
   width: 65%;
   float: left;
@@ -32,7 +47,9 @@ body{
   float: left;
 }
 
-.header{}
+.header{
+  text-align: center;
+}
 
 .footer{
   clear: both;
