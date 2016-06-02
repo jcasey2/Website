@@ -18,7 +18,8 @@ $success = mail($to, $subject, $message, $headers);
 
 if($success)
 {
-	header("Location: http://johnrcasey.net/contact.html");
+	//header("Location: http://johnrcasey.net/contact.html");
+	header("Location: localhost/contact.html");
 }
 else
 {
