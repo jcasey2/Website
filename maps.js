@@ -1,7 +1,7 @@
-/*
+/***********************************
 The code  is from Google and sets
 the map, view, size, and zoom of map
-*/
+***********************************/
 var myCenter=new google.maps.LatLng(27.713146,-82.434113);
 
 function initialize()

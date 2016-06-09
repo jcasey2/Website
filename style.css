@@ -1,54 +1,18 @@
+/******************************
+Author: John Casey
+Selectors listed alphabetically, grouped first by element, then by class, and
+finally by id.
+******************************/
+/*Selectors*/
 body{
   font-family: "Lucida Console", Monaco, monospace
 }
 
+/*Classes*/
 .email{
   width: 40%;
   padding-left: 10%;
   float: left;
-}
-
-#googleMap{
-  width: 500px;
-  height: 380px;
-  width: 40%;
-  float: right;
-  margin-right: 10%;
-  margin-top: 10%;
-}
-
-.left{
-  width: 65%;
-  float: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-right: solid red;
-  border-width: 2px;
-}
-
-.right{
-  width: 20%;
-  float:right;
-  padding-left: 4%;
-}
-
-.index{
-  width: 50%;
-  padding-right: 25%;
-  float: right;
-}
-
-.alt_header{
-  text-align: center;
-}
-
-.profile{
-  padding-left: 15%;
-  float: left;
-}
-
-.header{
-  text-align: center;
 }
 
 .footer{
@@ -57,18 +21,17 @@ body{
   padding-top: 10px;
 }
 
-#profile{
-  width: 100px;
-  height: 100px;
-  align: right;
+.header{
+  text-align: center;
 }
 
-#signature{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.index{
+  width: 50%;
+  padding-right: 25%;
+  float: right;
 }
 
+/*index_link class*/
 a.index_link:link, a.index_link:visited{
     background-color: #f44336;
     color: white;
@@ -81,4 +44,46 @@ a.index_link:link, a.index_link:visited{
 a.index_link:hover, a.index_link:active{
     background-color: white;
     color: red;
+}
+
+.left{
+  width: 65%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-right: solid red;
+  border-width: 2px;
+}
+
+.profile{
+  padding-left: 15%;
+  float: left;
+}
+
+.right{
+  width: 20%;
+  float:right;
+  padding-left: 4%;
+}
+
+/*ids*/
+#googleMap{
+  width: 500px;
+  height: 380px;
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+#profile{
+  width: 100px;
+  height: 100px;
+  align: right;
+}
+
+#signature{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
