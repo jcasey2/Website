@@ -68,8 +68,8 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-/*
-a:link, a:visited {
+
+a.index_link:link, a.index_link:visited{
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -78,8 +78,7 @@ a:link, a:visited {
     display: inline-block;
 }
 
-a:hover, a:active {
+a.index_link:hover, a.index_link:active{
     background-color: white;
     color: red;
 }
-*/
