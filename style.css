@@ -65,12 +65,20 @@ a.index_link:hover, a.index_link:active{
   float: left;
 }
 
-.projects{}
+.projects{
+  width: 75%;
+  padding-left: 12.5%;
+}
 
 .right{
   width: 20%;
   float:right;
   padding-left: 4%;
+}
+
+.video{
+  height: 385px;
+  width: 640px;
 }
 
 /*ids*/
@@ -89,8 +97,56 @@ a.index_link:hover, a.index_link:active{
   align: right;
 }
 
-#signature{
+#title{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f44336;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #f44336;
 }
