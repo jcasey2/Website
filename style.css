@@ -51,7 +51,6 @@ a.index_link:hover, a.index_link:active{
     color: red;
 }
 
-
 .left{
   width: 65%;
   float: left;
@@ -96,6 +95,7 @@ a.index_link:hover, a.index_link:active{
   width: 100px;
   height: 100px;
   align: right;
+  border-radius: 15%;
 }
 
 #title{
