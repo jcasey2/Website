@@ -13,6 +13,11 @@ iframe{
   height: auto;
 }
 
+textarea{
+  resize: none;
+  width: 65%;
+}
+
 /*Classes*/
 .blog{
   width: 75%;

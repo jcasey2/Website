@@ -11,6 +11,9 @@
     <script src="maps.js"></script>
 </head>
 <body>
+  <div>
+    <img id="title" src="/img/contact.png">
+  </div>
   <div class="header">
     <p>
       <a class="index_link" href="http://www.johnrcasey.net/index.html">About</a>
@@ -35,13 +38,13 @@
             813-416-6391<br /><br />
         </p>
         <form method="post" action="email.php">
-            First Name<br /><input name="first_name" type="text"/><br/><br/>
-            Last Name<br /><input name="last_name" type="text"/><br /><br />
-            Email<br /><input name="email" type="text" /><br /><br />
-            Subject<br /><input name="subject" type="text" /><br /><br />
-            Message<br /><textarea name="message" type="text" rows="10" columns="100"></textarea><br /><br />
+            First:&nbsp;&nbsp;&nbsp;<input name="first_name" type="text" size="30" autofocus/><br/><br/>
+            Last:&nbsp;&nbsp;&nbsp;&nbsp;<input name="last_name" type="text" size="30"//><br /><br />
+            Email:&nbsp;&nbsp;&nbsp;<input name="email" type="text" size="30"//><br /><br />
+            Subject:&nbsp;<input name="subject" type="text" size="30"//><br /><br />
+            Message:</br><textarea name="message" type="text" rows="10" columns="40"/></textarea><br /><br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="submit"/>
+            <input type="submit" value="Send"/>
             <input type="reset"/>
         </form>
     </div>
